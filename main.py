@@ -9,7 +9,7 @@ game_status = True
 with gr.Blocks() as demo:
     gr.Markdown(
         """
-            Rock Paper Scissors
+            # Rock Paper Scissors
         """
     )
 
