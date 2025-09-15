@@ -1,1 +1,3 @@
-Xiao Wang x Greg Witt random project
+# Rock Paper Scissors  
+
+Xiao Wang x Greg Witt Project
