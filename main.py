@@ -1,9 +1,11 @@
 # import random libray, rock/paper/scissor game
 import random
 
+
 # Rock, paper, and scissor game against computer. Set a true variable for game
 options = ("rock🪨", "paper📃", "scissor✂️")
 game_status = True
+
 
 # While loop with user input and random computer input
 while game_status:
