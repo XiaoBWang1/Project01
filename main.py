@@ -3,7 +3,7 @@ import random
 
 
 # Rock, paper, and scissor game against computer. Set a true variable for game
-options = ("rock🪨", "paper📃", "scissor✂️")
+options = ("rock", "paper", "scissor")
 game_status = True
 
 
