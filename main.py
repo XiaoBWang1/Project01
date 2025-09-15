@@ -13,6 +13,8 @@ with gr.Blocks() as demo:
         """
     )
 
+    with gr.Row():
+        player_choice = gr.Dropdown(['rock', 'paper', 'scissors'], label="Choose your move", multiselect=False, interactive=True,)
         
 if __name__ == "__main__":
     
