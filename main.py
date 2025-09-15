@@ -1,10 +1,4 @@
-# import random libray, rock/paper/scissor game
-import random
-
-
-# Rock, paper, and scissor game against computer. Set a true variable for game
-options = ("rock", "paper", "scissor")
-game_status = True
+import gradio as gr
 
 player_wins = 0
 computer_wins = 0
