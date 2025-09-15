@@ -12,7 +12,7 @@ while game_status:
     computer = random.choice(options)
 
     while player not in options:
-        player = input("Select rock, paper, or scissor: ")
+        player = input("Select rock🪨, paper📃, or scissor✂️: ")
 
 # Displays format string of player and computer input
     print(f"Player: {player}")
@@ -21,11 +21,11 @@ while game_status:
 # If/else statement for win, tie, or lose scenarios with print statements
     if player == computer:
         print("Both have the same pick. Try again.")
-    elif player == "Rock" and computer == "Scissor":
+    elif player == "Rock🪨" and computer == "Scissor✂️":
         print("You win!")
-    elif player == "Paper" and computer == "Rock":
+    elif player == "Paper📃" and computer == "Rock🪨":
         print("You win!")
-    elif player == "Scissor" and computer == "paper":
+    elif player == "Scissor✂️" and computer == "paper📃":
         print("You win!")
     else:
         print("You've lost!")
