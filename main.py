@@ -1,6 +1,6 @@
 # import random libray, rock/paper/scissor game
 import random
-import gradio as gr
+
 
 # Rock, paper, and scissor game against computer. Set a true variable for game
 options = ("rock", "paper", "scissor")
